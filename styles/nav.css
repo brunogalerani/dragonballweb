@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #161616;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 !important;
+}
+
+#header_img{
+    height: 100px;
+    width: 250px;
+    margin: 7px 0 10px 0;
+}
+
+#header-img-link:hover{
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+header nav section{
+    padding: 0 !important;
+}
+
+header nav div a{
+    text-decoration: none !important;
+    color: orange;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 125px;
+}
+
+header nav div a:hover{
+    text-decoration: none;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #fff;
+    cursor: hand;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+header nav div a:visited{
+    text-decoration: none !important;
+    color: orange;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 125px;
+}

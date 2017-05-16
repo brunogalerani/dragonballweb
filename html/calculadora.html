@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" lang="br">
+  <title>Dragon Ball Guide - Calculadora de Ki</title>
+  <link rel="stylesheet" type="text/css" href="../styles/nav.css">
+  <link rel="stylesheet" type="text/css" href="../styles/calculadora.css">
+  <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="row">
+      <div class="col-md-4">
+        <a id="header-img-link" href="index.html"><img id="header_img" src="../imgs/Dragon_Ball_logo.png" alt="logo"></a>
+      </div>
+      <div class="col-md-8">
+        <div class="col-md-2 col-md-offset-3">
+          <a href="./calculadora.html">Calcular Ki</a>
+        </div>
+        <div class="col-md-2">
+          <a href="./sagas.html">Sagas</a>
+        </div>
+        <div class="col-md-2">
+          <a href="./censuras.html">Censuras</a>
+        </div>
+        <div class="col-md-2">
+          <a href="./personagens.html">Personagens</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="regiao-calculadora">
+      <h1 class="titulo">Calculadora de Ki</h1>
+      <div class="row container">
+        <div class="col-md-6">
+          <form>
+            <ul>
+              <li>
+                <label for="nome">Nome</label>
+              </li>
+              <li>
+                <input id="nome" type="text" placeholder="Goku">
+              </li>
+              <li>
+                <label for="idade">Idade</label>
+              </li>
+              <li>
+                <input id="idade" type="number" placeholder="16">
+              </li>
+              <li>
+                <label for="altura">Qual a sua altura em cm?</label>
+              </li>
+              <li>
+                <input id="altura" type="number" placeholder="180">
+              </li>
+              <li>
+                <label for="peso">Qual a sua massa em kg?</label>
+              </li>
+              <li>
+                <input id="peso" type="number" placeholder="80">
+              </li>
+              <li>
+                <label for="atividade">Pratica atividade física?</label>
+              </li>
+              <li>
+                <select id="atividade">
+                  <option value="" selected>Selecione uma opção...</option>
+                  <option value="diariamente">Sim, diariamente</option>
+                  <option value="semanalmente">Sim, semanalmente</option>
+                  <option value="pouco">Sim, mas poucas vezes</option>
+                  <option value="nao">Não</option>
+                </select>
+              </li>
+              <li>
+                <input id="submit" type="button" value="CALCULAR"/>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <table id="tabela">
+          <thead>
+            <tr>
+              <th>
+                Nome
+              </th>
+              <th>
+                Ki Normal
+              </th>
+              <th>
+                Ki Enraivecido
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="row linha-footer">
+      <div class="col-md-4 col-esquerda">
+        <ul>
+          <li class="titulo-footer">Conteúdo</li>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="calculadora.html">Calculadora</a></li>
+          <li><a href="censuras.html">Censuras</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li class="titulo-footer">Personagens</li>
+          <li><a href="personagens.html#goku">Goku</a></li>
+          <li><a href="personagens.html#vegeta">Vegeta</a></li>
+          <li><a href="personagens.html#gohan">Gohan</a></li>
+          <li><a href="personagens.html#piccolo">Piccolo</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li class="titulo-footer">Parceiros</li>
+          <li><a href="https://www.kamisama.com.br/">Kami Sama</a></li>
+          <li><a href="http://casadokame.blogspot.com.br/">Casa do Kame</a></li>
+          <li><a href="http://www.dragonball-multiverse.com/pt/chapters.html">Capítulos DB Multiverse</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <p>Copyright © 2017 – Todos os direitos reservados</p>
+    </div>
+  </footer>
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/calculadora.js"></script>
+</body>
+</html>

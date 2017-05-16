@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Fighting";
+  src: url(../fonts/FightingForce.ttf) format("truetype");
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+main{
+  background-color: #282727;
+  color: white;
+  height: 100%;
+}
+
+#container{
+  width: 100% !important;
+  background-color: #282727;
+  margin: 0 !important;
+}
+
+#menu-lateral {
+  position: absolute;
+  margin 0;
+  text-decoration: none;
+  background-color: #161616;
+  height: 100%;
+  padding-right: 0;
+}
+
+.fixed-menu{
+  position: fixed !important;
+  margin-top: 0 !important;
+  top: 0.01%;
+}
+
+#menu-lateral-lista{
+  position: relative;
+  top: 5%;
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu-lateral-lista a{
+  background-color: #161616;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu-lateral-lista a:hover {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-lateral-lista-ativo {
+  background-color: orange !important;
+  color: white;
+}
+
+#sagas {
+  height: auto;
+  padding-left: 60px;
+}
+
+.titulo{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Fighting", sans-serif;
+  font-size: 100px;
+}
+
+.img{
+  margin: 0 15px 8px 0;
+  float: left;
+  width: 450px;
+  height: 560px;
+}
+
+.texto{
+  white-space: pre-line;
+  word-wrap: break-word;
+  text-align: justify;
+  position: relative;
+  font-size: 16px;
+  margin: -25px 15px 15px 0;
+}
